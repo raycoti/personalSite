@@ -6,13 +6,18 @@
     </div>
 </template>
 
-<script >
+<script lang="ts">
 
-export default {
-  name: 'ArtGallery',
-  props: {
-    images: Array,
-  },
-};
+import { Component, Prop, Vue } from 'vue-property-decorator';
+
+interface ArtItem {
+  src: string;
+  title?: string;
+}
+
+@Component
+export default class ArtGaller extends Vue {
+  @Prop() private images!: ArtItem[];
+}
 
 </script>
