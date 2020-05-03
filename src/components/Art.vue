@@ -11,9 +11,7 @@
     </div>
     <transition name="fade-overlay">
       <div class="overlay" @click="close" v-if="display">
-        <div class="imageContainer">
-          <img :src="modalImg" />
-        </div>
+        <div class="imageContainer" :style="{backgroundImage: `url(${modalImg})`}" />
       </div>
     </transition>
   </span>

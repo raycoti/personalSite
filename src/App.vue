@@ -22,10 +22,6 @@ html, body {
   margin: 0;
 }
 
-.home{
-  width: 100vw;
-}
-
 #nav {
   padding: 30px;
   a {

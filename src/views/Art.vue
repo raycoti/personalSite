@@ -6,7 +6,7 @@
 
 <script >
 // @ is an alias to /src
-// import soulImg from '@/assets/soulSearching.jpg';
+import soulImg from '@/assets/soulSearching.jpg';
 import selfImg from '@/assets/self.png';
 import fish from '@/assets/fish.png';
 import desk from '@/assets/desk.png';
@@ -73,6 +73,13 @@ export default {
           gridArea: 'shell',
         },
       },
+      {
+        src: soulImg,
+        title: 'soul',
+        style: {
+          gridArea: 'soul',
+        },
+      },
     ],
     inputText: 'hi',
   }),
@@ -83,12 +90,12 @@ export default {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 5px;
-  max-width: 99vw;
   padding: 0;
   grid-template-areas:
     'tree tree tree self self desk'
     'tree tree tree self self shell'
-    'tree tree tree fish nightmare searching'
-    'tree tree tree . . .';
+    'tree tree tree fish searching nightmare'
+    'tree tree tree . . .'
+    'soul soul soul . . .';
 }
 </style>
