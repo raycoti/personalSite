@@ -2,7 +2,70 @@
   display: grid;
   padding: 0;
   background-color: black;
+  margin-top: 5rem;
 }
+
+#Self{
+  grid-area: self;
+}
+
+#fish{
+  grid-area: fish;
+}
+
+#Desk{
+  grid-area: desk;
+}
+
+#searching2{
+  grid-area: searching;
+}
+
+#treee{
+  grid-area: tree;
+}
+
+#nightmare{
+  grid-area: nightmare;
+}
+
+#shell{
+  grid-area: shell;
+}
+
+#soul{
+  grid-area: soul;
+}
+
+#turtle{
+  grid-area: turtle;
+}
+
+#robot{
+  grid-area: arm;
+}
+
+#bridge{
+  grid-area: bridge;
+}
+
+#city{
+  grid-area: city;
+}
+
+#kite2{
+  grid-area: kite2;
+}
+
+#kite{
+  grid-area: kite;
+}
+
+#existence{
+  grid-area: existence;
+}
+
+
 
 @media only screen and (min-width: 600px) {
   #artGrid{
@@ -21,6 +84,9 @@
       'kite2 kite2 arm arm arm city city city'
       'existence existence arm arm arm city city city'
       'existence existence . . . city city city';
+  }
+  #treee{
+    padding-top: 3rem; 
   }
 }
 
@@ -44,4 +110,5 @@
       'fish fish .'
       'kite2 kite2 kite2';
   }
+
 }

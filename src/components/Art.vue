@@ -4,7 +4,8 @@
       <div
         v-for="image in images"
         :key="image.src"
-        :style="image.style">
+        :id="image.title"
+        >
           <img :src="image.src" @click="setDisplay(image.src)" />
       </div>
     </div>

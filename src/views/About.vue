@@ -1,7 +1,9 @@
 <template>
   <div class="about">
     <Nav />
-    <h1>Ray Coti is..</h1>
+    <div class="container">
+      <h1>Ray Coti is..</h1>
+    </div>
   </div>
 </template>
 
@@ -16,3 +18,8 @@ export default {
   },
 };
 </script>
+<style scoped lang="scss">
+.container{
+  margin-top: 5rem;
+}
+</style>

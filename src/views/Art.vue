@@ -37,114 +37,68 @@ export default {
       {
         src: selfImg,
         title: 'Self',
-        style: {
-          gridArea: 'self',
-        },
       },
       {
         src: fish,
-        title: 'nightmare',
-        style: {
-          gridArea: 'fish',
-        },
+        title: 'fish',
       },
       {
         src: desk,
         title: 'Desk',
-        style: {
-          gridArea: 'desk',
-        },
       },
       {
         src: searchin,
-        title: 'searching 2',
-        style: {
-          gridArea: 'searching',
-        },
+        title: 'searching2',
       },
       {
         src: tree,
         title: 'treee',
-        style: {
-          gridArea: 'tree',
-          paddingTop: '1rem',
-        },
       },
       {
         src: untitled,
         title: 'nightmare',
-        style: {
-          gridArea: 'nightmare',
-        },
       },
       {
         src: shell,
         title: 'shell',
-        style: {
-          gridArea: 'shell',
-        },
       },
       {
         src: soulImg,
         title: 'soul',
-        style: {
-          gridArea: 'soul',
-        },
       },
       {
         src: turtle,
         title: 'turtle',
-        style: {
-          gridArea: 'turtle',
-        },
       },
       {
         src: robot,
         title: 'robot',
-        style: {
-          gridArea: 'arm',
-        },
       },
       {
         src: bridge,
         title: 'bridge',
-        style: {
-          gridArea: 'bridge',
-        },
       },
       {
         src: city,
         title: 'city',
-        style: {
-          gridArea: 'city',
-        },
       },
       {
         src: kite2,
         title: 'kite2',
-        style: {
-          gridArea: 'kite2',
-        },
       },
       {
         src: kite,
         title: 'kite',
-        style: {
-          gridArea: 'kite',
-        },
       },
       {
         src: existence,
         title: 'existence',
-        style: {
-          gridArea: 'existence',
-        },
       },
     ],
-    inputText: 'hi',
   }),
 };
 </script>
+
 <style lang="scss">
 @import url('./Art.scss')
 </style>

@@ -19,14 +19,22 @@ html, body {
 }
 
 #nav {
-  padding: 30px;
   a {
     font-weight: bold;
     color: #2c3e50;
-
+    padding: 0 5px;
     &.router-link-exact-active {
       color: #42b983;
     }
   }
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position:fixed;
+  background-color: #ffffff;
+  top: 0;
+  z-index: 5;
 }
 </style>
