@@ -1,0 +1,47 @@
+#artGrid{
+  display: grid;
+  padding: 0;
+  background-color: black;
+}
+
+@media only screen and (min-width: 600px) {
+  #artGrid{
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 5px;
+    grid-template-areas:
+      'tree tree tree soul soul soul soul soul'
+      'tree tree tree soul soul soul soul soul'
+      'tree tree tree fish fish fish searching searching'
+      'tree tree tree fish fish fish searching searching'
+      'desk desk desk fish fish fish bridge kite'
+      'desk desk desk self self shell shell shell '
+      'desk desk desk self self shell shell shell '
+      'turtle turtle nightmare nightmare nightmare shell shell shell '
+      'turtle turtle nightmare nightmare nightmare city city city'
+      'kite2 kite2 arm arm arm city city city'
+      'existence existence arm arm arm city city city'
+      'existence existence . . . city city city';
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  #artGrid{
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+    grid-template-areas: 
+      'self self searching'
+      'self self shell'
+      'soul soul soul'
+      'tree tree city'
+      'tree tree city'
+      'tree tree desk'
+      'kite kite kite'
+      'turtle existence existence'
+      'bridge existence existence'
+      'nightmare nightmare nightmare'
+      'nightmare nightmare nightmare'
+      'fish fish arm'
+      'fish fish .'
+      'kite2 kite2 kite2';
+  }
+}

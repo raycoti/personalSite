@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <Nav />
     <ArtGallery :gridId="gridId" :images="images" />
   </div>
 </template>
@@ -14,7 +15,6 @@ import shell from '@/assets/shell.png';
 import searchin from '@/assets/searchin.png';
 import untitled from '@/assets/Untitled.png';
 import tree from '@/assets/tree.png';
-import ArtGallery from '@/components/Art.vue';
 import robot from '@/assets/arm.png';
 import bridge from '@/assets/bridge.png';
 import city from '@/assets/city.jpg';
@@ -22,11 +22,14 @@ import turtle from '@/assets/turtle.png';
 import kite from '@/assets/kite.png';
 import kite2 from '@/assets/ite.jpg';
 import existence from '@/assets/existence.jpg';
+import ArtGallery from '@/components/Art.vue';
+import Nav from '@/components/Nav.vue';
 
 export default {
   name: 'Art',
   components: {
     ArtGallery,
+    Nav,
   },
   data: () => ({
     gridId: 'artGrid',
@@ -143,34 +146,5 @@ export default {
 };
 </script>
 <style lang="scss">
-#artGrid{
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-gap: 5px;
-  padding: 0;
-  grid-template-areas:
-    'tree tree tree soul soul soul soul soul'
-    'tree tree tree soul soul soul soul soul'
-    'tree tree tree fish fish fish searching searching'
-    'tree tree tree fish fish fish searching searching'
-    'desk desk desk fish fish fish bridge kite'
-    'desk desk desk self self shell shell shell '
-    'desk desk desk self self shell shell shell '
-    'turtle turtle nightmare nightmare nightmare shell shell shell '
-    'turtle turtle nightmare nightmare nightmare city city city'
-    'kite2 kite2 arm arm arm city city city'
-    'existence existence arm arm arm city city city'
-    'existence existence . . . city city city';
-    // '. . . . . . . . .';
-}
-
-/*
-  grid-template-areas:
-    'tree tree tree self self . soul soul soul'
-    'tree tree tree self self . soul soul soul'
-    'tree tree tree fish searching nightmare . . .'
-    'tree tree tree . . . . . .';
-    // '. . . . . . . . .';
-}
-*/
+@import url('./Art.scss')
 </style>

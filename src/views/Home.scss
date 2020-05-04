@@ -67,6 +67,40 @@
 }
 }
 
+@media only screen and (max-width: 599px) {
+  .container{
+    &:after{
+      background-image: url('../assets/tree.png');
+      background-position: center;
+    }
+    h1{
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    h2{
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+  .white{
+    color: #ffffff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    &:after{
+      background-color: black;
+      opacity: .75;
+    }
+  }
+  .enter{
+    margin-top: 1.25rem;
+    background-color: white;
+    color: rgba(0,0,0,.7) ;
+    &:hover{
+      opacity: .5;
+    }
+  }
+}
+
 .fade-enter-active, .fade-leave-active{
   transition: all ease-out 1s;
   position: absolute;
