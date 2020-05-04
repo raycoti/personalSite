@@ -7,21 +7,21 @@
 
 <script >
 // @ is an alias to /src
-import soulImg from '@/assets/soulSearching.jpg';
-import selfImg from '@/assets/self.png';
-import fish from '@/assets/fish.png';
-import desk from '@/assets/desk.png';
-import shell from '@/assets/shell.png';
-import searchin from '@/assets/searchin.png';
-import untitled from '@/assets/Untitled.png';
-import tree from '@/assets/tree.png';
-import robot from '@/assets/arm.png';
-import bridge from '@/assets/bridge.png';
-import city from '@/assets/city.jpg';
-import turtle from '@/assets/turtle.png';
-import kite from '@/assets/kite.png';
-import kite2 from '@/assets/ite.jpg';
-import existence from '@/assets/existence.jpg';
+import soulImg from '@/assets/pics/soulSearching.jpg';
+import selfImg from '@/assets/pics/self.png';
+import fish from '@/assets/pics/fish.png';
+import desk from '@/assets/pics/desk.png';
+import shell from '@/assets/pics/shell.png';
+import searchin from '@/assets/pics/searchin.png';
+import untitled from '@/assets/pics/Untitled.png';
+import tree from '@/assets/pics/tree.png';
+import robot from '@/assets/pics/arm.png';
+import bridge from '@/assets/pics/bridge.png';
+import city from '@/assets/pics/city.jpg';
+import turtle from '@/assets/pics/turtle.png';
+import kite from '@/assets/pics/kite.png';
+import kite2 from '@/assets/pics/ite.jpg';
+import existence from '@/assets/pics/existence.jpg';
 import ArtGallery from '@/components/Art.vue';
 import Nav from '@/components/Nav.vue';
 

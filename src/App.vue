@@ -10,11 +10,9 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  height: 100%;
 }
 
 html, body {
-  height: 100%;
   margin: 0;
 }
 
@@ -33,7 +31,7 @@ html, body {
   align-items: center;
   width: 100%;
   position:fixed;
-  background-color: #ffffff;
+  background-color: rgba(255,255,255,.9);
   top: 0;
   z-index: 5;
 }
