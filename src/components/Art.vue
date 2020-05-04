@@ -4,9 +4,8 @@
       <div
         v-for="image in images"
         :key="image.src"
-        :style="image.style"
-        @click="setDisplay(image.src)" >
-          <img :src="image.src" />
+        :style="image.style">
+          <img :src="image.src" @click="setDisplay(image.src)" />
       </div>
     </div>
     <transition name="fade-overlay">

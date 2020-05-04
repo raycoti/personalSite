@@ -15,6 +15,13 @@ import searchin from '@/assets/searchin.png';
 import untitled from '@/assets/Untitled.png';
 import tree from '@/assets/tree.png';
 import ArtGallery from '@/components/Art.vue';
+import robot from '@/assets/arm.png';
+import bridge from '@/assets/bridge.png';
+import city from '@/assets/city.jpg';
+import turtle from '@/assets/turtle.png';
+import kite from '@/assets/kite.png';
+import kite2 from '@/assets/ite.jpg';
+import existence from '@/assets/existence.jpg';
 
 export default {
   name: 'Art',
@@ -57,6 +64,7 @@ export default {
         title: 'treee',
         style: {
           gridArea: 'tree',
+          paddingTop: '1rem',
         },
       },
       {
@@ -80,6 +88,55 @@ export default {
           gridArea: 'soul',
         },
       },
+      {
+        src: turtle,
+        title: 'turtle',
+        style: {
+          gridArea: 'turtle',
+        },
+      },
+      {
+        src: robot,
+        title: 'robot',
+        style: {
+          gridArea: 'arm',
+        },
+      },
+      {
+        src: bridge,
+        title: 'bridge',
+        style: {
+          gridArea: 'bridge',
+        },
+      },
+      {
+        src: city,
+        title: 'city',
+        style: {
+          gridArea: 'city',
+        },
+      },
+      {
+        src: kite2,
+        title: 'kite2',
+        style: {
+          gridArea: 'kite2',
+        },
+      },
+      {
+        src: kite,
+        title: 'kite',
+        style: {
+          gridArea: 'kite',
+        },
+      },
+      {
+        src: existence,
+        title: 'existence',
+        style: {
+          gridArea: 'existence',
+        },
+      },
     ],
     inputText: 'hi',
   }),
@@ -88,14 +145,32 @@ export default {
 <style lang="scss">
 #artGrid{
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-gap: 5px;
   padding: 0;
   grid-template-areas:
-    'tree tree tree self self desk'
-    'tree tree tree self self shell'
-    'tree tree tree fish searching nightmare'
-    'tree tree tree . . .'
-    'soul soul soul . . .';
+    'tree tree tree soul soul soul soul soul'
+    'tree tree tree soul soul soul soul soul'
+    'tree tree tree fish fish fish searching searching'
+    'tree tree tree fish fish fish searching searching'
+    'desk desk desk fish fish fish bridge kite'
+    'desk desk desk self self shell shell shell '
+    'desk desk desk self self shell shell shell '
+    'turtle turtle nightmare nightmare nightmare shell shell shell '
+    'turtle turtle nightmare nightmare nightmare city city city'
+    'kite2 kite2 arm arm arm city city city'
+    'existence existence arm arm arm city city city'
+    'existence existence . . . city city city';
+    // '. . . . . . . . .';
 }
+
+/*
+  grid-template-areas:
+    'tree tree tree self self . soul soul soul'
+    'tree tree tree self self . soul soul soul'
+    'tree tree tree fish searching nightmare . . .'
+    'tree tree tree . . . . . .';
+    // '. . . . . . . . .';
+}
+*/
 </style>
