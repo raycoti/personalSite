@@ -31,8 +31,9 @@ html, body {
   align-items: center;
   width: 100%;
   position:fixed;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255,255,255,1);
   top: 0;
   z-index: 5;
 }
+
 </style>

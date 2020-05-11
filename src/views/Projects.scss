@@ -1,0 +1,38 @@
+@media screen and (max-width: 700px) {
+  .p-container{
+    padding: 0;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 900px){
+  .container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .p-container{
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 901px){
+  .container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .p-container{
+    max-width: 100rem;
+  }
+}
+.container{
+  width: 100%;
+  display: grid;
+  grid-gap: 2rem;
+  // grid-template-rows: repeat(2, 1fr);
+}
+.p-container{
+  width: 100%;
+}
+
+.projects{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5rem;
+}
