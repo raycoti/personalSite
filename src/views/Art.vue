@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <Nav />
     <ArtGallery :gridId="gridId" :images="images" />
   </div>
 </template>
@@ -23,13 +22,11 @@ import kite from '@/assets/pics/kite.png';
 import kite2 from '@/assets/pics/ite.jpg';
 import existence from '@/assets/pics/existence.jpg';
 import ArtGallery from '@/components/Art.vue';
-import Nav from '@/components/Nav.vue';
 
 export default {
   name: 'Art',
   components: {
     ArtGallery,
-    Nav,
   },
   data: () => ({
     gridId: 'artGrid',

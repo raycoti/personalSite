@@ -1,14 +1,22 @@
 <template>
   <!-- <transition> -->
     <div class="projects">
-      <Nav />
-      <div class="p-container">
-        <div class="container">
-          <Project
-            v-for="project in projects"
-            :key="project.src"
-            :project="project"
-          />
+      <div class="center">
+        <div
+          class="header"
+          :style="{backgroundImage: `url(${header})`}">
+          <div>
+            <h1>Projects</h1>
+          </div>
+        </div>
+        <div class="p-container">
+          <div class="container">
+            <Project
+              v-for="project in projects"
+              :key="project.src"
+              :project="project"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -20,18 +28,18 @@
 </style>
 
 <script>
-import Nav from '@/components/Nav.vue';
 import Project from '@/components/Project.vue';
 import IN from '@/assets/projects/project.png';
 import OFN from '@/assets/projects/ofn.png';
+import Soul from '@/assets/pics/soulSearching.jpg';
 
 export default {
   name: 'Projects',
   components: {
-    Nav,
     Project,
   },
   data: () => ({
+    header: Soul,
     projects: [
       {
         src: IN,

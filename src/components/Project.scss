@@ -14,10 +14,10 @@
   .des{
     width: 100%;
     margin-top: auto;
-    border: 1px solid #ffffff;
+    border: 1px solid #F0FEFF;
     background-color: rgba(255,255,255, .2);
     h1{
-      color: #ffffff;
+      color: #F0FEFF;
   }
   }
 }
@@ -48,7 +48,7 @@
 }
 .contianer{
   width: 100%;
-  background-color: #ffffff;
+  background-color: #e5e8e8;
   max-width: 60rem;
   padding: 1rem;
   max-height: 80rem;
@@ -113,7 +113,7 @@
   font-size: 1.5rem;
   color: white;
   background-color: rgba(0,0,0,.7) ;
-  border: 1px solid grey;
+  border: 1px solid #e5e8e8;
   padding: 1rem;
   width: 20rem;
   &:hover{
