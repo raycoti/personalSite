@@ -8,9 +8,7 @@
           </span>
           <span>
 
-          <p> A Full-Stack Developer who loves to use technology to blur the line
-            between dreams and reality.
-            Ray prides himself in being a leader and mentor </p>
+          <p> Ray is ... </p>
           </span>
         </div>
       </div>
@@ -33,7 +31,8 @@ export default {
 .container{
   margin-top: 5rem;
   color: #3C3F40;
-  max-width: 100rem;
+  max-width: 90rem;
+  padding: 1rem 4rem;
 }
 .picture{
   border-radius: 100%;
@@ -42,5 +41,10 @@ export default {
 .grid{
   display: grid;
   grid-template-columns: 1fr 5fr;
+  p{
+    max-width: 50rem;
+    padding-left: 1rem;
+    text-align: left;
+  }
 }
 </style>

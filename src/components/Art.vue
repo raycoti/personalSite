@@ -6,7 +6,11 @@
         :key="image.src"
         :id="image.title"
         >
-          <img :src="image.src" @click="setDisplay(image.src)" />
+          <img
+            class="lazy"
+            :data-src="image.src"
+            src="../assets/loading.png"
+            @click="setDisplay(image.src)" />
       </div>
     </div>
     <transition name="fade-overlay">
@@ -19,7 +23,11 @@
 
 <script lang="ts">
 
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import {
+  Component,
+  Prop,
+  Vue,
+} from 'vue-property-decorator';
 
 interface ArtItem {
   src: string;

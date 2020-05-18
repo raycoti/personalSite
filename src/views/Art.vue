@@ -28,6 +28,40 @@ export default {
   components: {
     ArtGallery,
   },
+  methods: {
+    lazyLoad() {
+      console.log('scroll');
+      const ref = this.lazyLoad;
+      let lazyImages = [].slice.call(document.querySelectorAll('img.lazy'));
+      let active = false;
+      if (active === false) {
+        active = true;
+        setTimeout(() => {
+          lazyImages.forEach((lazyImage) => {
+            if ((lazyImage.getBoundingClientRect().top <= window.innerHeight && lazyImage.getBoundingClientRect().bottom >= 0) && getComputedStyle(lazyImage).display !== 'none') {
+              // eslint-disable-next-line no-param-reassign
+              lazyImage.src = lazyImage.dataset.src ? lazyImage.dataset.src : '';
+              lazyImage.classList.remove('lazy');
+              lazyImages = lazyImages.filter((image) => image !== lazyImage);
+              if (lazyImages.length === 0) {
+                window.removeEventListener('scroll', ref);
+              }
+            }
+          });
+          active = false;
+        }, 200);
+      }
+    },
+  },
+  created() {
+    window.addEventListener('scroll', this.lazyLoad);
+    setTimeout(() => {
+      window.scrollTo(0, 1);
+    }, 100);
+  },
+  destroyed() {
+    window.removeEventListener('scroll', this.lazyLoad);
+  },
   data: () => ({
     gridId: 'artGrid',
     images: [
