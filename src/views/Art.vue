@@ -131,5 +131,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('./Art.scss')
+@import './Art.scss';
 </style>
