@@ -10,20 +10,20 @@
           <span class="text">
             <p>
               I am a Fullstack developer with 3+ years of experience, currently working
-              as the Lead Frontend Developer at Openfinance. During my tenure here, I led
+              as the Lead Frontend Developer at Openfinance. During my tenure here, I led the
               development of the Web App for the first US-regulated security token trading
-              platform. Highlights of this experience include making contributions to our Apis,
-              architecting a scalable React/Redux application
-              and building npm packages for our Component Libraries and Sdks.
-              I specialize in Javascript/Typescript, React, Redux and Node.
+              platform. Highlights of this experience include making contributions to our APIs,
+              architecting a scalable React/Redux application,
+              and building npm packages for our Component Libraries and SDKs.
+              I specialize in Javascript/Typescript, React, Redux, and Node.
             </p>
             <p>
               I am from Chicago’s beautiful Back of the Yards neighborhood
-              where I developed my love of art and technology. My facination with software
+              where I developed my love of art and technology. My fascination with software
               development was sparked by the desire to learn how people built educational
               games like Math Blaster! and ClueFinders that I spent countless hours on.
               I hope to one day go full circle and work in EdTech!
-              Outside of coding I enjoy dancing, drawing and cooking.
+              Outside of coding I enjoy dancing, drawing, and cooking.
             </p>
           </span>
           <span class="bottom">
