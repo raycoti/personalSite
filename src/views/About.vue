@@ -12,8 +12,8 @@
               I am a Fullstack developer with 3+ years of experience, currently working
               as the Lead Frontend Developer at Openfinance. During my tenure here, I led the
               development of the Web App for the first US-regulated security token trading
-              platform. Highlights of this experience include making contributions to our APIs,
-              architecting a scalable React/Redux apps,
+              platform. I'm currently adding to our APIs,
+              architecting scalable React/Redux apps,
               and building npm packages for our Component Libraries and SDKs.
               I specialize in Javascript/Typescript, React, Redux, and Node.
             </p>
