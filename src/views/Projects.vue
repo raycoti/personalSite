@@ -46,16 +46,16 @@ export default {
         title: 'Inveractive Narrative',
         description: `
         This is an ART CAPSTONE PROJECT I made during the 2015-2016 academic year.
-        In this piece I wanted to portray how labels contributed to feeling out of place during college.
-        The project was built using Unity 3D, Maya3D and Blender.`,
+        In this piece, I wanted to portray how labels contributed to feeling out of place during college.
+        The project was built using Unity 3D, Maya3D, and Blender.`,
         link: 'https://interactivenarrative.azurewebsites.net/',
       },
       {
         src: OFN,
         title: 'Openfinance',
         description: `
-        As a Software Developer at OPENFINANCE , I lead a team through the creation of the WEB APPLICATION for our platform, the first ever to trade security tokens.
-        It is written using React, Redux and Typescript.`,
+        As a Software Developer at OPENFINANCE, I led a team through the creation of the WEB APPLICATION for our platform, the first ever to trade security tokens.
+        It is written using React, Redux, and Typescript.`,
         link: 'https://app.openfinance.io/',
       },
     ],
