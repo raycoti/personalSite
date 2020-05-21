@@ -30,7 +30,6 @@ export default {
   },
   methods: {
     lazyLoad() {
-      console.log('scroll');
       const ref = this.lazyLoad;
       let lazyImages = [].slice.call(document.querySelectorAll('img.lazy'));
       let active = false;
