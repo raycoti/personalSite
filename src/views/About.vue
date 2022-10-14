@@ -9,12 +9,7 @@
           </span>
           <span class="text">
             <p>
-              I am a Fullstack developer with 3+ years of experience, currently working
-              as the Lead Frontend Developer at Openfinance. During my tenure here, I led the
-              development of the Web App for the first US-regulated security token trading
-              platform. I'm currently adding to our APIs,
-              architecting scalable React/Redux apps,
-              and building npm packages for our Component Libraries and SDKs.
+              I am a Frontend developer with 4+ years of experience
               I specialize in Javascript/Typescript, React, Redux, and Node.
             </p>
             <p>

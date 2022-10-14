@@ -30,7 +30,6 @@
 <script>
 import Project from '@/components/Project.vue';
 import IN from '@/assets/projects/project.png';
-import OFN from '@/assets/projects/ofn.png';
 import Soul from '@/assets/pics/soulSearching.jpg';
 
 export default {
@@ -49,14 +48,6 @@ export default {
         In this piece, I wanted to portray how labels contributed to feeling out of place during college.
         The project was built using Unity 3D, Maya3D, and Blender.`,
         link: 'https://interactivenarrative.azurewebsites.net/',
-      },
-      {
-        src: OFN,
-        title: 'Openfinance',
-        description: `
-        As a Software Developer at OPENFINANCE, I led a team through the creation of the WEB APPLICATION for our platform, the first ever to trade security tokens.
-        It is written using React, Redux, and Typescript.`,
-        link: 'https://app.openfinance.io/',
       },
     ],
   }),
