@@ -42,11 +42,17 @@ export default {
     projects: [
       {
         src: IN,
-        title: 'Inveractive Narrative',
+        title: 'Inveractive Narrative 2016',
         description: `
-        This is an ART CAPSTONE PROJECT I made during the 2015-2016 academic year.
-        In this piece, I wanted to portray how labels contributed to feeling out of place during college.
-        The project was built using Unity 3D, Maya3D, and Blender.`,
+        This project is a “walking simulator” that takes players on my journey as a first-generation student 
+        travelling away for college. The story is told through interactable snippets and visual metaphors.
+        The project was originally built with multiple users in mind (via networking and matchmaking) 
+        and I used that to disrupt the control of my own narrative. I did this by having the snippets cycle 
+        one sentence at a time, rather than be shown in full. This meant that the last sentence a user 
+        reads, would become the first sentence the next user reads. Thus, as more people interact with the
+        environment the more mixed up the story would become.  
+        The project was built using Unity 3D, Maya3D, and Blender.
+        `,
         link: 'https://interactivenarrative.azurewebsites.net/',
       },
     ],

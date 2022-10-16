@@ -13,11 +13,11 @@
               I specialize in Javascript/Typescript, React, Redux, and Node.
             </p>
             <p>
-              I am from Chicago’s beautiful Back of the Yards neighborhood
+              I am from Chicago's beautiful Back of the Yards neighborhood
               where I developed my love of art and technology. My fascination with software
               development was sparked by the desire to learn how people built educational
-              games like Math Blaster! and ClueFinders that I spent countless hours on.
-              I hope to one day go full circle and work in EdTech!
+              games that I spent countless hours on.
+              Now I am happy to work in the EdTech industry!
               Outside of coding I enjoy dancing, drawing, and cooking.
             </p>
           </span>
