@@ -21,6 +21,8 @@ import turtle from '@/assets/pics/turtle.png';
 import kite from '@/assets/pics/kite.png';
 import kite2 from '@/assets/pics/ite.jpg';
 import existence from '@/assets/pics/existence.jpg';
+import moon from '@/assets/pics/moon.png';
+import forest from '@/assets/pics/forest.png';
 import ArtGallery from '@/components/Art.vue';
 
 export default {
@@ -123,6 +125,14 @@ export default {
       {
         src: existence,
         title: 'existence',
+      },
+      {
+        src: moon,
+        title: 'moon',
+      },
+      {
+        src: forest,
+        title: 'forest',
       },
     ],
   }),

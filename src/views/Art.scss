@@ -65,6 +65,13 @@
   grid-area: existence;
 }
 
+#moon{
+  grid-area: moon;
+}
+
+#forest{
+  grid-area: forest;
+}
 
 
 @media only screen and (min-width: 600px) {
@@ -83,7 +90,10 @@
       'turtle turtle nightmare nightmare nightmare city city city'
       'kite2 kite2 arm arm arm city city city'
       'existence existence arm arm arm city city city'
-      'existence existence . . . city city city';
+      'existence existence forest forest forest city city city'
+      'moon moon forest forest forest . . .'
+      'moon moon forest forest forest . . .'
+      '. . forest forest forest . . .';
   }
   #treee{
     padding-top: 3rem; 
@@ -108,7 +118,13 @@
       'nightmare nightmare nightmare'
       'fish fish arm'
       'fish fish .'
-      'kite2 kite2 kite2';
+      'kite2 kite2 kite2'
+      'moon moon moon'
+      'moon moon moon'
+      'forest forest .'
+      'forest forest .'
+      'forest forest .';
+      
   }
 
 }
