@@ -73,6 +73,14 @@
   grid-area: forest;
 }
 
+#spiral{
+  grid-area: spiral;
+}
+
+#pallet{
+  grid-area: pallet;
+}
+
 
 @media only screen and (min-width: 600px) {
   #artGrid{
@@ -81,9 +89,9 @@
     grid-template-areas:
       'tree tree tree soul soul soul soul soul'
       'tree tree tree soul soul soul soul soul'
-      'tree tree tree fish fish fish searching searching'
-      'tree tree tree fish fish fish searching searching'
-      'desk desk desk fish fish fish bridge kite'
+      'tree tree tree spiral spiral spiral fish fish'
+      'tree tree tree spiral spiral spiral fish fish'
+      'desk desk desk spiral spiral spiral bridge kite'
       'desk desk desk self self shell shell shell '
       'desk desk desk self self shell shell shell '
       'turtle turtle nightmare nightmare nightmare shell shell shell '
@@ -91,9 +99,9 @@
       'kite2 kite2 arm arm arm city city city'
       'existence existence arm arm arm city city city'
       'existence existence forest forest forest city city city'
-      'moon moon forest forest forest . . .'
-      'moon moon forest forest forest . . .'
-      '. . forest forest forest . . .';
+      'moon moon forest forest forest searching searching searching'
+      'moon moon forest forest forest searching searching searching'
+      'pallet pallet forest forest forest searching searching searching';
   }
   #treee{
     padding-top: 3rem; 
@@ -108,6 +116,7 @@
       'self self searching'
       'self self shell'
       'soul soul soul'
+      'spiral spiral spiral'
       'tree tree city'
       'tree tree city'
       'tree tree desk'

@@ -23,6 +23,8 @@ import kite2 from '@/assets/pics/ite.jpg';
 import existence from '@/assets/pics/existence.jpg';
 import moon from '@/assets/pics/moon.png';
 import forest from '@/assets/pics/forest.png';
+import spiral from '@/assets/pics/spiral.jpg';
+import pallet from '@/assets/pics/pallets.png';
 import ArtGallery from '@/components/Art.vue';
 
 export default {
@@ -133,6 +135,14 @@ export default {
       {
         src: forest,
         title: 'forest',
+      },
+      {
+        src: spiral,
+        title: 'spiral',
+      },
+      {
+        src: pallet,
+        title: 'pallet',
       },
     ],
   }),

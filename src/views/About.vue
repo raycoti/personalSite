@@ -9,16 +9,23 @@
           </span>
           <span class="text">
             <p>
-              I am a Frontend developer with 4+ years of experience
-              I specialize in Javascript/Typescript, React, Redux, and Node.
+              Howdy y'all! I am a Frontend developer with 8+ years of frontend developer
+              experience who specializes in Typescript and React.
+              When I'm not working i'm either cooking up some food,
+              dancing or working on an art project
             </p>
             <p>
-              I am from Chicago's beautiful Back of the Yards neighborhood
-              where I developed my love of art and technology. My fascination with software
-              development was sparked by the desire to learn how people built educational
-              games that I spent countless hours on.
-              Now I am happy to work in the EdTech industry!
-              Outside of coding I enjoy dancing, drawing, and cooking.
+              I was born and raised in Chicago, originating from the beautiful Back of the Yards
+              neighborhood where I developed my love of art and the city.
+              My fascination with software development was sparked by the desire to learn how people
+              built the educational computer games that I spent countless hours on as a child.
+              My first coding project was a math quiz game, and in a full circle moment
+              I am proud to say that I work in the EdTech industry!
+            </p>
+            <p>
+              This site mostly contains my art work
+              using a combination of 3D modeling (Blender) and digital drawing (Procreate).
+              NO AI HERE.
             </p>
           </span>
           <span class="bottom">
@@ -41,7 +48,7 @@
 
 <script>
 
-import Ray from '@/assets/ray.jpg';
+import Ray from '@/assets/ray.jpeg';
 import Linkedin from '@/assets/linkedin.png';
 import Git from '@/assets/github.png';
 

@@ -4,13 +4,13 @@
   max-width: 70rem;
 }
 .picture{
-  border-radius: 100%;
+  border-radius: 1rem;
   width: 100%;
 }
 .text{
-  border-radius: 2rem;
+  border-radius: 1rem;
   text-align: left;
-  padding: 1rem;
+  padding: 1rem 3rem;
   grid-area: text;
   background-color: #ffffff;
   p {
@@ -24,7 +24,6 @@
     &:last-child{
       padding-bottom: 1.75rem;
     }
-    max-width: 50rem;
   }
 }
 
@@ -75,8 +74,8 @@
     display: grid;
     grid-template-areas:
       'ray'
-      'bottom'
-      'text';
+      'text'
+      'bottom';
     padding: 5px;
     p{
       text-align: left;
@@ -99,19 +98,20 @@
 @media screen and (min-width: 851px){
   .grid{
     display: grid;
+    gap: 0px;
     grid-template-columns: 1.5fr 5fr;
     grid-template-areas:
-      'ray text'
-      'bottom text'
-      '. text';
+      'ray ray'
+      'text text'
+      'bottom bottom';
     p{
       line-height: 2rem;
       text-align: left;
     }
   }
-  .text{
-    margin-left: 4rem;
-  }
+  // .text{
+  //   margin-left: 4rem;
+  // }
   .container{
     padding: 1rem 4rem;
   }
@@ -122,9 +122,9 @@
     display: grid;
     grid-template-columns: 2fr 4fr;
     grid-template-areas:
-      'ray text'
-      'bottom text'
-      '. text';
+      'ray ray'
+      'text text'
+      'bottom bottom';
     p{
       max-width: 50rem;
       line-height: 2rem;
