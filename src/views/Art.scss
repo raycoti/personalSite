@@ -1,89 +1,89 @@
-#artGrid{
+#artGrid {
   display: grid;
   padding: 0;
   background-color: black;
   margin-top: 5rem;
 }
 
-#Self{
+#Self {
   grid-area: self;
 }
 
-#fish{
+#fish {
   grid-area: fish;
 }
 
-#Desk{
+#Desk {
   grid-area: desk;
 }
 
-#searching2{
+#searching2 {
   grid-area: searching;
 }
 
-#treee{
+#treee {
   grid-area: tree;
 }
 
-#nightmare{
+#nightmare {
   grid-area: nightmare;
 }
 
-#shell{
+#shell {
   grid-area: shell;
 }
 
-#soul{
+#soul {
   grid-area: soul;
 }
 
-#turtle{
+#turtle {
   grid-area: turtle;
 }
 
-#robot{
+#robot {
   grid-area: arm;
 }
 
-#bridge{
+#bridge {
   grid-area: bridge;
 }
 
-#city{
+#city {
   grid-area: city;
 }
 
-#kite2{
+#kite2 {
   grid-area: kite2;
 }
 
-#kite{
+#kite {
   grid-area: kite;
 }
 
-#existence{
+#existence {
   grid-area: existence;
 }
 
-#moon{
+#moon {
   grid-area: moon;
 }
 
-#forest{
+#forest {
   grid-area: forest;
 }
 
-#spiral{
+#spiral {
   grid-area: spiral;
 }
 
-#pallet{
+#pallet {
   grid-area: pallet;
 }
 
 
 @media only screen and (min-width: 600px) {
-  #artGrid{
+  #artGrid {
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 5px;
     grid-template-areas:
@@ -103,16 +103,18 @@
       'moon moon forest forest forest searching searching searching'
       'pallet pallet forest forest forest searching searching searching';
   }
-  #treee{
-    padding-top: 3rem; 
+
+  #treee {
+    padding-top: 3rem;
   }
 }
 
 @media only screen and (max-width: 599px) {
-  #artGrid{
+  #artGrid {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0px;
-    grid-template-areas: 
+    grid-template-areas:
+      'pallet pallet pallet'
       'self self searching'
       'self self shell'
       'soul soul soul'
@@ -133,7 +135,7 @@
       'forest forest .'
       'forest forest .'
       'forest forest .';
-      
+
   }
 
 }
